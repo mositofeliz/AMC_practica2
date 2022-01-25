@@ -1,0 +1,16 @@
+ESTADOS: a b c d 
+INICIAL: a
+FINALES: a c 
+TRANSICIONES: 
+a '1' b
+a '2' d
+b '1' b
+b '2' c
+c '1' a
+c '3' c
+d '2' c
+TRANSICIONESλ: 
+a b
+b c
+b d
+FIN
